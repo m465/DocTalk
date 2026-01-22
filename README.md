@@ -1,7 +1,3 @@
-### 3. README.md
-Create a file named `README.md` in your **root folder**. This is the documentation anyone (including future employers) will read.
-
-```markdown
 # 🤖 DocTalk AI
 
 **DocTalk AI** is a full-stack, multi-user RAG (Retrieval-Augmented Generation) application that allows users to securely upload documents and chat with them using AI. 
@@ -73,7 +69,7 @@ create table documents (
   uploaded_at timestamp with time zone default timezone('utc'::text, now()) not null,
   processed_at timestamp with time zone
 );
-```
+
 
 ### 3. Installation
 
