@@ -158,5 +158,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 1.  Initialize Repo: `git init`
 2.  Add files: `git add .`
 3.  Commit: `git commit -m "Changing you made in DocTalk AI"`
-4.  Link Repo: `git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git` or push changes to original repo
+4.  Link Repo: `git remote add origin https://github.com/m465/DocTalk.git`
 5.  Push: `git push -u origin master`
