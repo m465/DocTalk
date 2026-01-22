@@ -1,0 +1,34 @@
+# --- Python Global (Ignores pycache in ANY folder) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+doctalk/
+
+# --- Environment Variables (CRITICAL) ---
+# This ignores .env in the root AND any subfolder
+.env
+**/.env
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# --- Local Data & Storage (CRITICAL) ---
+# Ignore the specific data folder
+backend/data/
+
+# Ignore vector DB files wherever they appear
+*.sqlite3
+chroma.sqlite3
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db

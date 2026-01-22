@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+supabase
+python-dotenv
+pydantic
+passlib
+argon2-cffi
+python-jose[cryptography]
+python-multipart
+langchain
+langchain-community
+langchain-ollama
+langchain-chroma
+pypdf
+tiktoken
+numpy
