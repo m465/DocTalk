@@ -3,7 +3,6 @@ uvicorn
 supabase
 python-dotenv
 pydantic
-passlib
 argon2-cffi
 python-jose[cryptography]
 python-multipart
@@ -14,3 +13,5 @@ langchain-chroma
 pypdf
 tiktoken
 numpy
+pytest
+httpx
